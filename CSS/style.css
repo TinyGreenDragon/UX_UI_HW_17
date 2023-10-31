@@ -1,17 +1,15 @@
-.inline-block li {  
-  display: inline-block;
+.inline-block {  
+  display: inline-block; 
   vertical-align: top;  
 }
 
-.logo {
-  background-color: #696969;
+.logo {  
   text-align: center;  
   width: 23%;
   padding: 1%;  
 }
 
-nav {  
-  background-color: #696969;    
+nav {       
   width: 73%;
   padding: 1%;
 }
@@ -34,10 +32,12 @@ ul {
 footer {
   background-color: #373738;
   padding: 1px;
+  
 }
 
-footer ul li {  
-  display: inline-block;
+.bottomNav {  
+  display: inline-block;  
   vertical-align: top;  
   padding: 1%;
 }
+
